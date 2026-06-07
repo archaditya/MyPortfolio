@@ -20,7 +20,7 @@ const Navbar = () => {
         >
           <FaLinkedin />
         </a>
-        <a target="_blank" href="https://github.com/adityakkpk">
+        <a target="_blank" href="https://github.com/archaditya">
           <FaGithub />
         </a>
         <a

@@ -51,7 +51,7 @@ const Contact = () => {
         <a target="_blank" href="https://www.linkedin.com/in/adityakumarkushwaha" className="text-blue-600">
           <FaLinkedin />
         </a>
-        <a target="_blank" href="https://github.com/adityakkpk">
+        <a target="_blank" href="https://github.com/archaditya">
           <FaGithub />
         </a>
         <a target="_blank" href="https://x.com/akkpk933" className="text-gray-400">
