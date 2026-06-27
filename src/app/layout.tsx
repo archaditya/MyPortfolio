@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google"
 
 export const metadata: Metadata = {
   title: "Aditya — Backend Engineer & Systems Builder",
@@ -49,6 +50,7 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-[#080808] text-white antialiased">{children}</body>
+      <GoogleAnalytics gaId="G-SM976PDKTF" />
     </html>
   );
 }
