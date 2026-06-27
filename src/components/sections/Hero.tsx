@@ -188,7 +188,7 @@ export default function Hero() {
               </svg>
             </a>
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1e0LWmP6fZJR0JXdFsc_sk_UfCMZpT2vH/view?pli=1"
               className="inline-flex items-center gap-2 px-6 py-3 border border-white/[0.1] hover:border-white/[0.2] text-white/70 hover:text-white text-sm font-medium rounded-lg transition-all duration-200 group"
             >
               <svg
