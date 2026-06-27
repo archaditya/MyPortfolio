@@ -68,7 +68,7 @@ export default function Navigation() {
             Contact
           </a>
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1e0LWmP6fZJR0JXdFsc_sk_UfCMZpT2vH/view?pli=1"
             className="px-4 py-1.5 text-sm font-medium bg-accent hover:bg-accent/90 text-white rounded-md transition-all duration-200"
           >
             Resume
