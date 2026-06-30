@@ -89,7 +89,7 @@ const links = [
   },
   {
     label: "Resume",
-    href: "https://drive.google.com/file/d/1e0LWmP6fZJR0JXdFsc_sk_UfCMZpT2vH/view?pli=1",
+    href: "https://drive.google.com/file/d/1-rUFHqAQ-yGJOEtWBNyJBjowoeGHlgR3/view",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
