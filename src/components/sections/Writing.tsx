@@ -10,30 +10,43 @@ const articles = [
     excerpt:
       "A deep dive into every engineering decision, mistake and architectural trade-off while building ByteVault from scratch.",
     tag: "Series",
-    readTime: "",
-    date: "Comming Soon",
+    readTime: "2 min",
+    link: "https://github.com/archaditya/bytevault/tree/main/docs/Engineering-Journal",
+    date: "Updates Frequently",
+  },
+  {
+    title: "Learning GenAI using JavaScript",
+    excerpt:
+      "Learning the Generative AI in the Javascipt from 'GenAI with Javascript 2026' Cohort from chaicode.com",
+    tag: "Series",
+    readTime: "2 - 5 mins",
+    link: "https://aditya-engineering.hashnode.dev/",
+    date: "Updates Frequently",
   },
   {
     title: "Lessons from Production",
     excerpt:
       "Interesting backend problems I solve at work, generalized without exposing company-specific implementation.",
     tag: "Production",
-    readTime: "",
+    readTime: "2 min",
+    link: "",
     date: "Comming Soon",
   },
   {
     title: "Go Learning Notes",
     excerpt: "Concurrency, Interfaces, Memory, Context,Patterns.",
     tag: "Learning",
-    readTime: "",
+    readTime: "2 min",
+    link: "",
     date: "Comming Soon",
   },
   {
-    title: "Distributed Systems Journal",
-    excerpt: "CAP, Consensus, Caching, Queues, Event Driven Architecture.",
+    title: "Docker Learning Notes",
+    excerpt: "Docker, Docker Compose, Docekr bild, RUN, Images.",
     tag: "Learning",
-    readTime: "",
-    date: "Comming Soon",
+    readTime: "2 min",
+    link: "https://github.com/archaditya/bytevault/tree/main/docs/Docker-Learning",
+    date: "Updates Frequently",
   },
 ];
 
@@ -51,7 +64,7 @@ export default function Writing() {
         {articles.map((article, i) => (
           <motion.a
             key={article.title}
-            href="#"
+            href={article.link}
             initial={{ opacity: 0, y: 16 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.4, delay: i * 0.09 }}

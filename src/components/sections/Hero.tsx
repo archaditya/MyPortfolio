@@ -132,7 +132,7 @@ export default function Hero() {
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
               Learning Distributed Systems
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                Available for Backend Engineering Roles
+              Available for Backend Engineering Roles
             </span>
           </motion.div>
 
@@ -146,14 +146,17 @@ export default function Hero() {
           {/* Tagline */}
           <motion.div variants={stagger.item}>
             <p className="font-mono text-sm text-accent/70 mb-6 tracking-wide">
-              Backend Engineer · Building with Node | Express | Python | FASTApi | Go · Exploring Distributed Systems
+              Backend Engineer · Building with Node | Express | Python | FASTApi
+              | Go · Exploring Distributed Systems
             </p>
           </motion.div>
 
           {/* Description */}
           <motion.div variants={stagger.item}>
             <p className="text-lg md:text-xl text-white/45 leading-relaxed max-w-xl mb-10">
-              Building production-focused backend systems with Go. Currently working on ByteVault while learning Go, Distributed Systems, Cloud Infrastructure, and AI Engineering.
+              Building production-focused backend systems with Go. Currently
+              working on ByteVault while learning Go, Distributed Systems, Cloud
+              Infrastructure, and AI Engineering.
             </p>
           </motion.div>
 
@@ -188,7 +191,7 @@ export default function Hero() {
               </svg>
             </a>
             <a
-              href="https://drive.google.com/file/d/1e0LWmP6fZJR0JXdFsc_sk_UfCMZpT2vH/view?pli=1"
+              href="https://drive.google.com/file/d/1-rUFHqAQ-yGJOEtWBNyJBjowoeGHlgR3/view"
               className="inline-flex items-center gap-2 px-6 py-3 border border-white/[0.1] hover:border-white/[0.2] text-white/70 hover:text-white text-sm font-medium rounded-lg transition-all duration-200 group"
             >
               <svg
@@ -209,7 +212,7 @@ export default function Hero() {
           </motion.div>
 
           {/* Inline tech stack strip */}
-          <motion.div
+          {/* <motion.div
             variants={stagger.item}
             className="flex flex-wrap items-center gap-3"
           >
@@ -223,7 +226,7 @@ export default function Hero() {
                 </span>
               )
             )}
-          </motion.div>
+          </motion.div> */}
         </motion.div>
 
         {/* Scroll cue */}

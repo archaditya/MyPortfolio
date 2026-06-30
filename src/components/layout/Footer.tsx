@@ -41,7 +41,7 @@ export default function Footer() {
           </a>
           <span className="text-white/10">·</span>
           <a
-            href="https://drive.google.com/file/d/1e0LWmP6fZJR0JXdFsc_sk_UfCMZpT2vH/view?pli=1"
+            href="https://drive.google.com/file/d/1-rUFHqAQ-yGJOEtWBNyJBjowoeGHlgR3/view"
             className="font-mono text-xs text-white/30 hover:text-white/60 transition-colors"
           >
             Resume
