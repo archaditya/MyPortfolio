@@ -166,7 +166,7 @@ export default function Hero() {
             className="flex flex-wrap items-center gap-4 mb-16"
           >
             <a
-              href="#projects"
+              href="https://bytevault.archadi.dev"
               className="inline-flex items-center gap-2 px-6 py-3 bg-accent hover:bg-accent/90 text-white text-sm font-medium rounded-lg transition-all duration-200 group"
             >
               Visit ByteVault
