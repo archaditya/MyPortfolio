@@ -117,7 +117,7 @@ export default function Projects() {
                 <div className="flex items-center gap-3 mb-2">
                   <span className="tag tag-blue">Featured</span>
                   <span className="font-mono text-xs text-white/25">
-                    🚧 Currently Building
+                    V1 Live
                   </span>
                 </div>
                 <h3 className="text-2xl font-semibold text-white mb-2">
@@ -128,7 +128,7 @@ export default function Projects() {
                 </p>
               </div>
               <a
-                href="https://github.com/archaditya/bytevault"
+                href="https://bytevault.archadi.dev"
                 className="inline-flex items-center gap-2 px-4 py-2 border border-white/[0.1] hover:border-white/[0.2] rounded-lg text-sm text-white/60 hover:text-white transition-all duration-200"
               >
                 <svg
