@@ -43,7 +43,7 @@ export default function Navigation() {
           </span>
           <span className="text-white/80 font-medium">aditya</span>
           <span className="text-white/20">/</span>
-          <span className="text-accent/80 font-light text-xs">backend</span>
+          <span className="text-accent/80 font-light text-xs">Backend & Applied AI</span>
         </a>
 
         {/* Desktop Nav */}

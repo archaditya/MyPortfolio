@@ -132,12 +132,12 @@ export default function Contact() {
         >
           <p className="section-label mb-4">Get In Touch</p>
           <h2 className="text-3xl md:text-5xl font-semibold text-white tracking-tight mb-5 leading-tight">
-            Interested in backend engineering?
+            Interested in Backend & Applied AI engineering?
             <br />
             <span className="text-white/30">Let's talk.</span>
           </h2>
           <p className="text-base text-white/40 leading-relaxed mb-12 max-w-lg">
-            I'm currently working as a Backend Engineer building production
+            I'm currently working as a Backend & Applied AI Engineer building production
             systems with Node.js, FastAPI and modern infrastructure. If you're
             hiring, collaborating on an interesting project, or just want to
             discuss distributed systems, I'd love to connect.

@@ -11,7 +11,7 @@ export default function Footer() {
           </span>
         </div>
         <p className="font-mono text-xs text-white/25 text-center">
-          Backend Engineer focused on scalable APIs, distributed systems and
+          Backend & Applied AI Engineer focused on scalable APIs, distributed systems and
           production infrastructure.
         </p>
         <div className="flex items-center gap-4">

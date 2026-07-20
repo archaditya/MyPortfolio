@@ -132,7 +132,7 @@ export default function Hero() {
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
               Learning Distributed Systems
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-              Available for Backend Engineering Roles
+              Available for Backend & Applied AI Engineering Roles
             </span>
           </motion.div>
 
@@ -146,7 +146,7 @@ export default function Hero() {
           {/* Tagline */}
           <motion.div variants={stagger.item}>
             <p className="font-mono text-sm text-accent/70 mb-6 tracking-wide">
-              Backend Engineer · Building with Node | Express | Python | FASTApi
+              Backend & Applied AI & Applied AI Engineer · Building with Node | Express | Python | FASTApi
               | Go · Exploring Distributed Systems
             </p>
           </motion.div>
@@ -154,7 +154,7 @@ export default function Hero() {
           {/* Description */}
           <motion.div variants={stagger.item}>
             <p className="text-lg md:text-xl text-white/45 leading-relaxed max-w-xl mb-10">
-              Building production-focused backend systems with Go. Currently
+              Building production-focused Backend & Applied AI systems with Go. Currently
               working on ByteVault while learning Go, Distributed Systems, Cloud
               Infrastructure, and AI Engineering.
             </p>
