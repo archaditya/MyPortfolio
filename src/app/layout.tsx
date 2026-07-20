@@ -3,11 +3,11 @@ import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google"
 
 export const metadata: Metadata = {
-  title: "Aditya — Backend Engineer & Systems Builder",
+  title: "Aditya — a Engineer & Systems Builder",
   description:
-    "Backend engineer specializing in distributed systems, infrastructure, Go, Python, and AI-powered products. Building systems that scale.",
+    "Backend & Applied AI engineer specializing in distributed systems, infrastructure, Go, Python, and AI-powered products. Building systems that scale.",
   keywords: [
-    "backend engineer",
+    "Backend & Applied AI engineer",
     "distributed systems",
     "Go",
     "Python",
@@ -17,16 +17,16 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Aditya" }],
   openGraph: {
-    title: "Aditya — Backend Engineer & Systems Builder",
+    title: "Aditya — Backend & Applied AI Engineer & Systems Builder",
     description:
-      "Building scalable backend systems, distributed architectures, and AI-powered products.",
+      "Building scalable Backend & Applied AI systems, distributed architectures, and AI-powered products.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aditya — Backend Engineer & Systems Builder",
+    title: "Aditya — Backend & Applied AI Engineer & Systems Builder",
     description:
-      "Building scalable backend systems, distributed architectures, and AI-powered products.",
+      "Building scalable Backend & Applied AI systems, distributed architectures, and AI-powered products.",
   },
 };
 
