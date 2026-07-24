@@ -145,18 +145,15 @@ export default function Hero() {
 
           {/* Tagline */}
           <motion.div variants={stagger.item}>
-            <p className="font-mono text-sm text-accent/70 mb-6 tracking-wide">
-              Backend & Applied AI & Applied AI Engineer · Building with Node | Express | Python | FASTApi
-              | Go · Exploring Distributed Systems
+            <p className="font-mono text-sm text-accent/80 mb-6 tracking-wide">
+              Backend & Applied AI Engineer · Node | Go | Python (FastAPI) | Qdrant Vector DB | Redis Streams | PostgreSQL
             </p>
           </motion.div>
 
           {/* Description */}
           <motion.div variants={stagger.item}>
             <p className="text-lg md:text-xl text-white/45 leading-relaxed max-w-xl mb-10">
-              Building production-focused Backend & Applied AI systems with Go. Currently
-              working on ByteVault while learning Go, Distributed Systems, Cloud
-              Infrastructure, and AI Engineering.
+              Building production-focused Backend & Applied AI systems. Creator of ArchadiLM (Multi-Tenant RAG Engine) and ByteVault (Cloud Native Storage Platform).
             </p>
           </motion.div>
 
