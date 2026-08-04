@@ -25,7 +25,7 @@ export default function Footer() {
           </a>
           <span className="text-white/10">·</span>
           <a
-            href="https://linkedin.com/in/adityakumarkushwaha"
+            href="https://linkedin.com/in/akkpk"
             target="_blank"
             rel="noopener noreferrer"
             className="font-mono text-xs text-white/30 hover:text-white/60 transition-colors"
@@ -41,7 +41,7 @@ export default function Footer() {
           </a>
           <span className="text-white/10">·</span>
           <a
-            href="https://drive.google.com/file/d/1-rUFHqAQ-yGJOEtWBNyJBjowoeGHlgR3/view"
+            href="https://drive.google.com/file/d/1ocDAJkHV-2fs_eAvr8YN1nvOTHXQrlBA/view?usp=drivesdk"
             className="font-mono text-xs text-white/30 hover:text-white/60 transition-colors"
           >
             Resume
