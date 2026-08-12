@@ -116,7 +116,7 @@ export default function Navigation() {
               Contact
             </a>
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1ocDAJkHV-2fs_eAvr8YN1nvOTHXQrlBA/view?usp=drivesdk"
               className="flex-1 py-2 text-sm text-center bg-accent rounded-md text-white"
             >
               Resume

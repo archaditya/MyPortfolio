@@ -25,7 +25,7 @@ export default function Footer() {
           </a>
           <span className="text-white/10">·</span>
           <a
-            href="https://linkedin.com/in/adityakumarkushwaha"
+            href="https://linkedin.com/in/akkpk"
             target="_blank"
             rel="noopener noreferrer"
             className="font-mono text-xs text-white/30 hover:text-white/60 transition-colors"
