@@ -6,9 +6,9 @@ import { useInView } from "@/hooks/useInView";
 
 const articles = [
   {
-    title: "Building ByteVault in Public",
+    title: "Building PushPostVault in Public",
     excerpt:
-      "A deep dive into every engineering decision, mistake and architectural trade-off while building ByteVault from scratch.",
+      "A deep dive into every engineering decision, mistake and architectural trade-off while building PushPostVault from scratch.",
     tag: "Series",
     readTime: "2 min",
     link: "https://github.com/archaditya/bytevault/tree/main/docs/Engineering-Journal",

@@ -73,7 +73,7 @@ const flagshipProjects: ProjectDetail[] = [
 `,
   },
   {
-    name: "ByteVault",
+    name: "PushPostVault",
     tagline: "Cloud Native File Storage & Transfer Platform",
     description:
       "A production-grade file transfer and storage platform engineered around scalable architecture, resumable chunked uploads, distributed processing, metadata management, and intelligent transfer optimization.",
@@ -104,8 +104,8 @@ const flagshipProjects: ProjectDetail[] = [
       "JWT Authentication",
       "Granular Access Control",
     ],
-    liveUrl: "https://bytevault.archadi.dev",
-    githubUrl: "https://github.com/archaditya/bytevault",
+    liveUrl: "https://PushPostVault.com",
+    githubUrl: "https://github.com/archaditya/PushPostVault",
     archDiagram: `
     Client ──────────► API Gateway (Go)
               ┌───────────┼────────────┐

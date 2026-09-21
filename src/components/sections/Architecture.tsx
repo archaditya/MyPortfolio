@@ -44,7 +44,7 @@ const diagrams: Record<
 `,
   },
   storage: {
-    title: "Cloud-Native Chunked Storage Engine (ByteVault)",
+    title: "Cloud-Native Chunked Storage Engine (PushPostVault)",
     subtitle: "Resumable Upload State Machine & Distributed Part Assembly",
     description:
       "Files are chunked into content-addressable blocks with SHA-256 integrity verification. Uploads are managed by a Redis-backed atomic state machine with optimistic locking on PostgreSQL, and binary payloads are stored in Cloudflare R2 object storage.",

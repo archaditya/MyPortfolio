@@ -89,7 +89,7 @@ const links = [
   },
   {
     label: "Resume",
-    href: "https://drive.google.com/file/d/18SjQMoQR8-fjxI-B6kPhnNM7Vmr5l62g/view?usp=sharing",
+    href: "https://www.pushpostvault.com/s/111d33ec-35ef-49b9-8991-946407df92cc",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -26,11 +26,10 @@ export default function Navigation() {
       initial={{ y: -20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? "bg-[rgba(8,8,8,0.92)] backdrop-blur-md border-b border-white/[0.06]"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
@@ -68,7 +67,7 @@ export default function Navigation() {
             Contact
           </a>
           <a
-            href="https://drive.google.com/file/d/18SjQMoQR8-fjxI-B6kPhnNM7Vmr5l62g/view?usp=sharing"
+            href="https://www.pushpostvault.com/s/111d33ec-35ef-49b9-8991-946407df92cc"
             className="px-4 py-1.5 text-sm font-medium bg-accent hover:bg-accent/90 text-white rounded-md transition-all duration-200"
           >
             Resume

@@ -68,13 +68,13 @@ const journey = [
   },
   {
     date: "Present",
-    title: "Building ByteVault",
+    title: "Building PushPostVault",
     company: "Personal Engineering",
     description:
-      "Outside of work, I'm building ByteVault while learning Go, Distributed Systems, Cloud Infrastructure and Generative AI.",
+      "Outside of work, I'm building PushPostVault while learning Go, Distributed Systems, Cloud Infrastructure and Generative AI.",
     technologies: [
       "Go",
-      "ByteVault",
+      "PushPostVault",
       "Cloudflare R2",
       "Docker",
       "Distributed Systems",
@@ -197,7 +197,7 @@ export default function Philosophy() {
             Professionally, I contribute to backend systems using Node.js,
             Express and FastAPI. Personally, I'm investing my time in Go,
             Distributed Systems, Cloud Infrastructure and building
-            <span className="text-white font-medium"> ByteVault</span> — a
+            <span className="text-white font-medium"> PushPostVault</span> — a
             cloud-native file storage platform designed with scalability and
             production engineering principles in mind.
           </p>
