@@ -1,4 +1,5 @@
 import Navigation from "@/components/layout/Navigation";
+import CustomCursor from "@/components/ui/CustomCursor";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
 import Philosophy from "@/components/sections/Philosophy";
@@ -13,12 +14,24 @@ import Contact from "@/components/sections/Contact";
 export default function Home() {
   return (
     <>
+      {/* Persistent background mesh */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none fixed inset-0 -z-10 opacity-60"
+        style={{
+          backgroundImage:
+            "radial-gradient(circle at 15% 10%, rgba(59,130,246,0.10), transparent 40%), radial-gradient(circle at 85% 30%, rgba(168,85,247,0.08), transparent 40%), radial-gradient(circle at 50% 90%, rgba(59,130,246,0.06), transparent 45%)",
+        }}
+      />
+
       {/* Noise texture */}
       <div className="noise-overlay" aria-hidden="true" />
+      <CustomCursor />
 
+      {/* Top Navigation */}
       <Navigation />
 
-      <main>
+      <main className="w-full">
         <Hero />
 
         <div className="section-divider" />
@@ -30,8 +43,9 @@ export default function Home() {
         <div className="section-divider" />
         <Architecture />
 
-        {/* <div className="section-divider" />
-        <Experience /> */}
+        <div className="section-divider" />
+        <Experience />
+
         <div className="section-divider" />
         <Philosophy />
 

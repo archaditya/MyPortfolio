@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#22D3EE"/>
+    <stop offset=".45" stop-color="#2563EB"/>
+    <stop offset="1" stop-color="#C026D3"/>
+  </linearGradient>
+  <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#38BDF8"/>
+    <stop offset="1" stop-color="#8B5CF6"/>
+  </linearGradient>
+</defs>
+<g transform="translate(170 20)">
+  <path fill="url(#g)" d="M45 270 185 35h70l-54 92h70l54 143h-72l-31-80h-69l-46 80z"/>
+  <path fill="url(#g2)" d="M255 35h62l142 235h-75L300 125l-45 75h-78l78-165z"/>
+  <path fill="#24C7F2" d="M185 127h78l32 55h-143z"/>
+</g>
+<text x="400" y="345" text-anchor="middle" fill="#111827" font-family="Inter,Arial,sans-serif" font-size="58" font-weight="500" letter-spacing="18">ADITYA</text>
+<text x="400" y="382" text-anchor="middle" fill="#64748B" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="500" letter-spacing="6">SOFTWARE ENGINEER</text>
+</svg>

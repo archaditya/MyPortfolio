@@ -28,6 +28,11 @@
     scrollbar-color: #2a2a2a #080808;
   }
 
+  /* Native cursor hidden only where the fine-pointer custom cursor is active */
+  @media (pointer: fine) {
+    a, button, [data-cursor-hover] { cursor: none; }
+  }
+
   html::-webkit-scrollbar {
     width: 6px;
   }
@@ -139,6 +144,39 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #3b82f6;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section-label::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #3b82f6, #a855f7);
+  }
+
+  /* Soft gradient glow, used behind hero name / featured cards for depth */
+  .glow-orb {
+    position: absolute;
+    border-radius: 9999px;
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.35) 0%, rgba(168, 85, 247, 0.12) 45%, transparent 70%);
+    filter: blur(40px);
+    pointer-events: none;
+  }
+
+  /* Card with a gradient border glow on hover, layered via background-clip trick */
+  .card-glow {
+    position: relative;
+    transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .card-glow:hover {
+    border-color: rgba(59, 130, 246, 0.35);
+    box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.12), 0 20px 50px -20px rgba(59, 130, 246, 0.25);
+    transform: translateY(-2px);
   }
 }
 
@@ -156,6 +194,11 @@
 }
 
 /* Noise texture overlay */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
 .noise-overlay {
   position: fixed;
   inset: 0;

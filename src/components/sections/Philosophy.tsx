@@ -71,7 +71,7 @@ const journey = [
     title: "Building PushPostVault",
     company: "Personal Engineering",
     description:
-      "Outside of work, I'm building PushPostVault while learning Go, Distributed Systems, Cloud Infrastructure and Generative AI.",
+      "Outside of work, I ship and run PushPostVault end to end \u2014 product, backend, infra and users \u2014 while learning Go, Distributed Systems and Generative AI.",
     technologies: [
       "Go",
       "PushPostVault",
@@ -195,11 +195,11 @@ export default function Philosophy() {
 
           <p className="text-white/55 leading-7">
             Professionally, I contribute to backend systems using Node.js,
-            Express and FastAPI. Personally, I'm investing my time in Go,
-            Distributed Systems, Cloud Infrastructure and building
-            <span className="text-white font-medium"> PushPostVault</span> — a
-            cloud-native file storage platform designed with scalability and
-            production engineering principles in mind.
+            Express and FastAPI. Personally, I run
+            <span className="text-white font-medium"> PushPostVault</span> end
+            to end &mdash; a live send-and-collect file platform I built, deployed,
+            and am now getting in front of real users, on Go, Cloudflare R2 and
+            production engineering principles.
           </p>
         </motion.div>
       </div>
