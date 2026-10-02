@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
@@ -7,6 +9,7 @@ const navLinks = [
   // { label: "Philosophy", href: "#philosophy" },
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
+  { label: "Experience", href: "#experience" },
   { label: "Architecture", href: "#architecture" },
   { label: "Writing", href: "#writing" },
 ];
@@ -32,17 +35,17 @@ export default function Navigation() {
         }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        {/* Logo */}
+        {/* Logo: Tightly cropped high-res brand mark */}
         <a
           href="#"
-          className="font-mono text-sm font-semibold text-white tracking-tight flex items-center gap-2"
+          className="flex items-center group transition-transform duration-200 hover:scale-105"
+          aria-label="Aditya Portfolio Home"
         >
-          <span className="w-6 h-6 rounded bg-accent flex items-center justify-center text-xs font-bold text-white">
-            A
-          </span>
-          <span className="text-white/80 font-medium">aditya</span>
-          <span className="text-white/20">/</span>
-          <span className="text-accent/80 font-light text-xs">Backend & Applied AI</span>
+          <img
+            src="/brand/aditya-logo-tight.png"
+            alt="Aditya — Software Engineer"
+            className="h-11 md:h-12 w-auto object-contain rounded-md drop-shadow-[0_0_15px_rgba(34,211,238,0.25)]"
+          />
         </a>
 
         {/* Desktop Nav */}
@@ -115,7 +118,7 @@ export default function Navigation() {
               Contact
             </a>
             <a
-              href="https://drive.google.com/file/d/1ocDAJkHV-2fs_eAvr8YN1nvOTHXQrlBA/view?usp=drivesdk"
+              href="https://www.pushpostvault.com/s/111d33ec-35ef-49b9-8991-946407df92cc"
               className="flex-1 py-2 text-sm text-center bg-accent rounded-md text-white"
             >
               Resume

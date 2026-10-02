@@ -6,32 +6,18 @@ import { useInView } from "@/hooks/useInView";
 
 const timeline = [
   {
-    period: "2024 – Present",
-    title: "Backend & Infrastructure Engineering",
-    desc: "Deepening expertise in Go and Python for building production systems. Focused on distributed architecture, observability, and infrastructure automation with Docker and CI/CD pipelines.",
-    tags: ["Go", "Python", "Docker", "Observability", "CI/CD"],
+    period: "Aug 2025 – Present",
+    title: "Backend Developer & Applied AI — Spirehubs Softwares",
+    desc: "Currently building an AI SaaS agent bot, and leading a major backend refactor on DWIVE, a ride-hailing platform for the Caribbean region: splitting a large FastAPI monolith into a modular structure, implementing RBAC across hundreds of routes, unifying API response formats, and migrating auth to a two-token (access + refresh) JWT system.",
+    tags: ["FastAPI", "AI Agents", "RBAC", "JWT Auth", "DWIVE"],
     accent: "bg-accent",
   },
   {
-    period: "2023 – 2024",
-    title: "AI Systems & LLM Integration",
-    desc: "Building AI-powered backends — RAG pipelines, vector search infrastructure, multi-agent orchestration, and LLM-integrated APIs. Shipped an AI assistant platform serving real users.",
-    tags: ["LLM APIs", "RAG", "Vector DB", "LangChain", "FastAPI"],
+    period: "Feb 2025 – Aug 2025",
+    title: "Full Stack Developer (MERN) — Evren Global Solutions",
+    desc: "Shipped full-stack features end to end on the MERN stack, working across the API and the React frontend.",
+    tags: ["MongoDB", "Express", "React", "Node.js"],
     accent: "bg-violet-500",
-  },
-  {
-    period: "2022 – 2023",
-    title: "Node.js & API Development",
-    desc: "Shipped production REST and GraphQL APIs with Node.js and Express. Deep-dived into PostgreSQL query optimization, Redis caching patterns, and MongoDB aggregation pipelines.",
-    tags: ["Node.js", "Express", "PostgreSQL", "GraphQL", "Redis"],
-    accent: "bg-emerald-500",
-  },
-  {
-    period: "2021 – 2022",
-    title: "Backend Foundations",
-    desc: "Started with Python and Flask, built first production APIs, learned relational data modeling, deployed first containerized applications. Fell in love with systems thinking.",
-    tags: ["Python", "Flask", "SQL", "REST", "Linux"],
-    accent: "bg-orange-500",
   },
 ];
 
@@ -42,11 +28,10 @@ export default function Experience() {
     <SectionWrapper
       id="experience"
       label="Experience"
-      title="Engineering Journey"
-      subtitle="A timeline of how I've grown as an engineer — each phase building on the last."
+      title="Where I Work"
+      subtitle="Professional roles, most recent first."
     >
       <div ref={ref as React.RefObject<HTMLDivElement>} className="relative">
-        {/* Vertical line */}
         <div className="absolute left-[19px] top-6 bottom-0 w-px bg-gradient-to-b from-accent/40 via-accent/10 to-transparent" />
 
         <div className="space-y-10">
@@ -58,7 +43,6 @@ export default function Experience() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="flex gap-8 pl-12 relative"
             >
-              {/* Dot */}
               <div
                 className={`absolute left-[14px] top-1.5 w-[11px] h-[11px] rounded-full ${item.accent} ring-[3px] ring-[#080808]`}
               />

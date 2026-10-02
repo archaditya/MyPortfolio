@@ -29,9 +29,9 @@ export default function SectionWrapper({
     <section
       id={id}
       ref={ref as React.RefObject<HTMLElement>}
-      className={cn("py-24 px-6", className)}
+      className={cn("relative py-24 px-6 overflow-hidden", className)}
     >
-      <div className={cn("max-w-6xl mx-auto", innerClassName)}>
+      <div className={cn("max-w-6xl mx-auto relative", innerClassName)}>
         {(label || title || subtitle) && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -41,7 +41,7 @@ export default function SectionWrapper({
           >
             {label && <p className="section-label mb-3">{label}</p>}
             {title && (
-              <h2 className="text-3xl md:text-4xl font-semibold text-white tracking-tight mb-4">
+              <h2 className="font-mono text-3xl md:text-4xl font-semibold text-white tracking-tight mb-4">
                 {title}
               </h2>
             )}

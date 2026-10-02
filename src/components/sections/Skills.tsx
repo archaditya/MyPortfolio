@@ -23,13 +23,12 @@ const skillGroups = [
   {
     category: "Cloud & DevOps",
     color: "violet",
-    skills: ["Docker", "Linux",, "Cloudflare R2", "Nginx", "Github Actions"],
+    skills: ["Docker", "Linux", "Cloudflare R2", "Nginx", "GitHub Actions"],
   },
   {
     category: "Currently Exploring",
     color: "orange",
     skills: [
-      "Currently Exploring",
       "System Design",
       "Generative AI",
       "Event Driven Architecture",
