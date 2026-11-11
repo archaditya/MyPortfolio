@@ -108,7 +108,7 @@ const stagger = {
   item: { hidden: { opacity: 0, y: 24 }, show: { opacity: 1, y: 0, transition: { duration: 0.55, ease: "easeOut" } } },
 };
 
-const marqueeItems = ["Backend Engineering", "Applied AI", "Distributed Systems", "Go", "Python", "TypeScript"];
+const marqueeItems = ["Backend Engineering", "Node.js", "Python (FastAPI)", "Go", "Docker", "Applied AI"];
 
 export default function Hero() {
   return (
@@ -127,7 +127,7 @@ export default function Hero() {
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
                 Building PushPostVault
                 <span className="w-1.5 h-1.5 rounded-full bg-white/20" />
-                Open to Backend &amp; Applied AI roles
+                Open to SDE / Backend roles
               </span>
             </motion.div>
 
@@ -147,7 +147,7 @@ export default function Hero() {
               variants={stagger.item}
               className="text-lg md:text-2xl text-white/50 leading-snug max-w-2xl mb-10 font-light"
             >
-              Building production-focused Backend &amp; Applied AI systems &mdash; from a live SaaS
+              Backend engineer owning production systems &mdash; from a live SaaS
               product (<span className="text-white font-medium">PushPostVault</span>) to a
               self-hosted PR review bot and a multi-tenant RAG engine (
               <span className="text-white font-medium">ArchadiLM</span>).
@@ -174,7 +174,7 @@ export default function Hero() {
                 </svg>
               </a>
               <a
-                href="https://www.pushpostvault.com/s/111d33ec-35ef-49b9-8991-946407df92cc"
+                href="/Aditya_s_Resume.pdf"
                 data-cursor-hover
                 className="inline-flex items-center gap-2 px-6 py-3 border border-white/[0.1] hover:border-white/[0.2] text-white/70 hover:text-white text-sm font-medium rounded-lg transition-all duration-200 group"
               >
@@ -212,7 +212,7 @@ export default function Hero() {
               </div>
               <div className="flex justify-between gap-4">
                 <span className="text-white/25">role</span>
-                <span className="text-right">Backend &amp; Applied AI</span>
+                <span className="text-right">Software Engineer (Backend)</span>
               </div>
               <div className="flex justify-between gap-4">
                 <span className="text-white/25">focus</span>
@@ -242,6 +242,6 @@ export default function Hero() {
       <div className="relative">
         <Marquee items={marqueeItems} speed={30} />
       </div>
-    </section>
+    </section >
   );
 }

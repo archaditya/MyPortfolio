@@ -32,6 +32,7 @@ const projects: Project[] = [
       { label: "Storage", value: "Cloudflare R2" },
     ],
     highlights: [
+      "25 users, 4-5 daily active, Grafana + R2",
       "Resumable Chunked File Upload Engine",
       "Self-Expiring One-Time Share Links",
       "Guest Upload Invites with Enforced Limits",

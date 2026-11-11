@@ -7,15 +7,15 @@ import { useInView } from "@/hooks/useInView";
 const timeline = [
   {
     period: "Aug 2025 – Present",
-    title: "Backend Developer & Applied AI — Spirehubs Softwares",
-    desc: "Currently building an AI SaaS agent bot, and leading a major backend refactor on DWIVE, a ride-hailing platform for the Caribbean region: splitting a large FastAPI monolith into a modular structure, implementing RBAC across hundreds of routes, unifying API response formats, and migrating auth to a two-token (access + refresh) JWT system.",
-    tags: ["FastAPI", "AI Agents", "RBAC", "JWT Auth", "DWIVE"],
+    title: "Software Engineer (Backend & Applied AI) — Spirehubs Softwares",
+    desc: "Own two products end to end: DWIVE, a ride-hailing platform for the Caribbean, and Spire Engage, a multi-client AI agent platform. On DWIVE: split a ~4,000-line FastAPI monolith into 65 modular endpoint files, implemented RBAC across 280+ routes, unified API responses, migrated auth to a two-token JWT system with revocable sessions, and added 4-language support.",
+    tags: ["FastAPI", "AI Agents", "RBAC", "JWT Auth", "DWIVE", "Spire Engage"],
     accent: "bg-accent",
   },
   {
     period: "Feb 2025 – Aug 2025",
     title: "Full Stack Developer (MERN) — Evren Global Solutions",
-    desc: "Shipped full-stack features end to end on the MERN stack, working across the API and the React frontend.",
+    desc: "Shipped production web apps end to end on the MERN stack: IBIEA2025 (100+ award recipients), ICCIC (200+ researchers' paper submissions), and an AI visa document validation pipeline.",
     tags: ["MongoDB", "Express", "React", "Node.js"],
     accent: "bg-violet-500",
   },

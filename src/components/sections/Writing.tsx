@@ -17,7 +17,7 @@ const articles = [
   {
     title: "Learning GenAI using JavaScript",
     excerpt:
-      "Learning the Generative AI in the Javascipt from 'GenAI with Javascript 2026' Cohort from chaicode.com",
+      "Learning Generative AI in JavaScript from the 'GenAI with JavaScript 2026' cohort at chaicode.com",
     tag: "Series",
     readTime: "2 - 5 mins",
     link: "https://aditya-engineering.hashnode.dev/",
@@ -30,7 +30,7 @@ const articles = [
     tag: "Production",
     readTime: "2 min",
     link: "",
-    date: "Comming Soon",
+    date: "Coming Soon",
   },
   {
     title: "Go Learning Notes",
@@ -38,11 +38,11 @@ const articles = [
     tag: "Learning",
     readTime: "2 min",
     link: "",
-    date: "Comming Soon",
+    date: "Coming Soon",
   },
   {
     title: "Docker Learning Notes",
-    excerpt: "Docker, Docker Compose, Docekr bild, RUN, Images.",
+    excerpt: "Docker, Docker Compose, Docker build, RUN, Images.",
     tag: "Learning",
     readTime: "2 min",
     link: "https://github.com/archaditya/bytevault/tree/main/docs/Docker-Learning",

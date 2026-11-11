@@ -17,7 +17,7 @@ export default function Footer() {
               </a>
             </div>
             <p className="text-white/50 text-xs leading-relaxed max-w-sm">
-              Architecting production-ready backend microservices, distributed chunked storage engines, and enterprise Applied AI intelligence platforms.
+              Software Engineer (Backend) building production APIs, a live SaaS and AI-powered systems with Node.js, Python and Go.
             </p>
           </div>
 
@@ -96,7 +96,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.pushpostvault.com/s/111d33ec-35ef-49b9-8991-946407df92cc"
+                  href="/Aditya_s_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-accent hover:underline flex items-center gap-1.5 font-semibold"
