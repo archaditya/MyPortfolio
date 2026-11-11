@@ -38,7 +38,7 @@ const journey = [
   {
     date: "February 2025",
     title: "Full Stack Developer Intern",
-    company: "Production Internship",
+    company: "Evren Global Solutions",
     description:
       "Worked on multiple production applications, shipping features, fixing bugs and maintaining real-world applications deployed using cPanel.",
     technologies: [
@@ -54,9 +54,9 @@ const journey = [
   {
     date: "August 2025",
     title: "Software Engineer",
-    company: "Backend Team",
+    company: "Spirehubs Softwares",
     description:
-      "Converted into a full-time Software Engineer and started contributing to backend services, APIs and production systems using Node.js and FastAPI.",
+      "Joined Spirehubs Softwares as a Software Engineer: own DWIVE and Spire Engage, building backend services, APIs and AI agent systems with FastAPI, Node.js and Go.",
     technologies: [
       "Node.js",
       "Express",
@@ -71,7 +71,7 @@ const journey = [
     title: "Building PushPostVault",
     company: "Personal Engineering",
     description:
-      "Outside of work, I ship and run PushPostVault end to end \u2014 product, backend, infra and users \u2014 while learning Go, Distributed Systems and Generative AI.",
+      "Outside of work, I ship and run PushPostVault end to end \u2014 product, backend, infra and users \u2014 on a self-managed VPS with Docker and Grafana monitoring.",
     technologies: [
       "Go",
       "PushPostVault",

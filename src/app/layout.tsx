@@ -4,11 +4,13 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://archadi.dev"),
-  title: "Aditya — Backend & Applied AI Engineer & Systems Builder",
+  title: "Aditya Kumar Kushwaha — Software Engineer (Backend) | Node.js, Python, Go",
   description:
-    "Backend & Applied AI engineer building PushPostVault (live SaaS), AI PR Review Bot, and multi-tenant RAG systems. High-concurrency Go, Python, distributed event pipelines, and Neo4j AST knowledge graphs.",
+    "Software Engineer (Backend) building PushPostVault (live SaaS), AI PR Review Bot, and multi-tenant RAG systems. Node.js, Python (FastAPI), Go, Docker and AI-powered systems.",
   keywords: [
-    "Backend & Applied AI engineer",
+    "Software Engineer (Backend)",
+    "Node.js",
+    "FastAPI",
     "distributed systems",
     "Go",
     "Python",
@@ -30,9 +32,9 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Aditya — Backend & Applied AI Engineer & Systems Builder",
+    title: "Aditya Kumar Kushwaha — Software Engineer (Backend) | Node.js, Python, Go",
     description:
-      "Building scalable Backend & Applied AI systems, distributed architectures, and AI-powered products.",
+      "Backend engineer building production APIs, a live SaaS and AI-powered systems with Node.js, Python and Go.",
     url: "https://archadi.dev",
     siteName: "Aditya Portfolio",
     images: [
@@ -48,9 +50,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aditya — Backend & Applied AI Engineer & Systems Builder",
+    title: "Aditya Kumar Kushwaha — Software Engineer (Backend) | Node.js, Python, Go",
     description:
-      "Building scalable Backend & Applied AI systems, distributed architectures, and AI-powered products.",
+      "Backend engineer building production APIs, a live SaaS and AI-powered systems with Node.js, Python and Go.",
     creator: "@archadi_dev",
     images: ["/og-image.jpg"],
   },
